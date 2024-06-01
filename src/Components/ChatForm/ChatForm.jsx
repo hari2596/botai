@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import './ChatFormcss';
+import './ChatForm.css';
 import { useChat } from '../../Api/ChatContext';
 import { enqueueSnackbar } from 'notistack';
-import classNames from 'classnames';
+
 
 const ChatForm = ({ setQuery }) => {
     const [input, setInput] = useState('');
