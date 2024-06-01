@@ -9,8 +9,7 @@ function Homepage() {
       <div className='sidebar'>
       <Sidebar></Sidebar>
       </div>
-      
-    </div>
+      </div>
   )
 }
 
