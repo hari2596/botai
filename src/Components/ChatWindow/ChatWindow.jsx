@@ -22,9 +22,7 @@ const ChatWindow = ({query, setQuery, displaySlider, setDisplaySlider, flag, set
                 <div className="heading"> 
                     {!flag ? <p className="name">BotAI</p> : <p className="convheader">Conversation History</p>} 
                 </div>
-                <div className="toggle"> 
-                    <Toggle/>
-                </div>
+                
             </div>
             {displaySlider && <Slider setQuery={setQuery} setDisplaySlider={setDisplaySlider} setFlag={setFlag}/>}
             {flag ? <Conversation/> : (query ? <Chats query={query}/> : <Query setQuery={setQuery}/>)}

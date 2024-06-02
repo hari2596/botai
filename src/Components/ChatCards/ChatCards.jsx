@@ -1,7 +1,8 @@
 import './ChatCards.css';
 import user from '../../Assets/user.png';
 import logo from '../../Assets/logo.png';
-import Rating from '@mui/material/Rating';
+import { Rating } from '@mui/material';
+
 import { useEffect, useState } from 'react';
 import { useChat } from '../../Api/ChatContext';
 import Feedback from '../Feedback/Feedback';

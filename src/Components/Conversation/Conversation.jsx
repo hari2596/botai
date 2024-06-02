@@ -1,5 +1,5 @@
 import { useChat } from "../../Api/ChatContext";
-import ChatCards from "../chatcards/ChatCards";
+import ChatCards from "../ChatCards/ChatCards";
 import './Conversation.css';
 
 const Conversation = () => {

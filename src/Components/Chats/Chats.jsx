@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ChatCards from '../ChatCards/ChatCards'
 import './Chats.css'
-import { Responses } from '../Chats/Responses';
+import { Responses } from './Responses';
 import { useChat } from '../../Api/ChatContext';
 
 export const chatId = () =>

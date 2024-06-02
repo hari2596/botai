@@ -1,11 +1,11 @@
-.container
+.home-container
 {
     width: 100vw;
     height: 100vh;
     display: flex;
 }
 
-.sidebar
+.home-sidebar
 {
     width: 25%;
 }
