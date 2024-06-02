@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+How to Use the Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Overview: BotAI is a chat application that allows users to interact with an AI model. Users can chat, rate, like, and provide feedback during conversations.
 
-## Available Scripts
+2. Main Features:
 
-In the project directory, you can run:
+   - Chat Window: Users can query the AI model and receive instant responses. They can also like or dislike chats.
+   - Rating and Feedback: Users can submit star ratings and feedback. Conversations can be saved for later viewing.
+   - Sidebar: Provides options for starting a new chat, accessing past conversations, and managing ratings/feedback.
 
-### `npm start`
+3. Sidebar:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   - New Chat: Clears recent conversations to start a fresh query.
+   - Past Conversations: Displays saved conversations, which can be expanded to view details.
+   - Rating/Feedback: Lists ratings and feedback, with options to filter and sort data. Includes a clear button to reset filters.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Screen Support: The application is responsive and supports all screen sizes.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technologies Used
 
-### `npm run build`
+1. Context API: Used for global data manipulation and state management.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Local Storage: Used to store current chat and chat history for operations and persistence.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Trade-offs
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+While the application aims to cover all edge cases and test scenarios, adding authentication would have been a valuable addition given more time.
