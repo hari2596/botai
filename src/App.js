@@ -1,11 +1,18 @@
-
-import './App.css';
-import Homepage from './Homepage/Homepage';
+import "./App.css";
+import { ChatProvider } from "./Api/ChatContext";
+import { SnackbarProvider } from "notistack";
+import Home from "./Homepage/Homepage";
 
 function App() {
   return (
     <div className="App">
-     <Homepage/>
+      <ChatProvider>
+        <SnackbarProvider
+          anchorOrigin={{ horizontal: "center", vertical: "top" }}
+        >
+          <Home />
+        </SnackbarProvider>
+      </ChatProvider>
     </div>
   );
 }
